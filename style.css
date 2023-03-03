@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    /* background-color: #a6c6d4; */
+    background-color: #e4ddd8;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #1eaeef; */
+    background-color: #dd9ea0;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
+a.navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+    font-size: x-large;
+}
+.nav-link.dropdown-toggle::after {
+    content: none;
+}
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+#meals{
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    /* display: grid; */
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #465874;
+}
+
+#films{
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+#films img{
+    width: 250px;
+    height: 350px;
+    /* border: 5px solid #dd9ea0; */
+}
+#films a{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 450;
+    text-align: center;
+    text-decoration: none;
+}
+#films p{
+    padding-top: 1%;
+    font-style: normal;
+    color: black;
+}
+button.films{
+    border: none;
+    background-color: transparent;
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+#films a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
